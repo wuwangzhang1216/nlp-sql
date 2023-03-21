@@ -19,15 +19,15 @@ https://stanfordnlp.github.io/CoreNLP/history.html
 `os.environ['CORENLP_HOME'] = "REPLACE_WITH_CORENLP_PATH"` in line 14.
 
 5. Set up your MySQL database with host, port, user, password and the database ready.
-> Make sure each table in your db has at least one row of data.
+  > Make sure each table in your db has at least one row of data.
 
 6. Running CoreNLP server, cd to your CoreNLP directory, in the example it might stanford-corenlp-4.5.2
-```
-java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000
-```
+  ```
+  java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000
+  ```
 
 7. Running script.py with specifying the required params(please replace the required params with your own):
-```
-python3 script.py -H HOST_NAME -p PORT_NUMBER -u USER_NAME -P PASSWORD -d DB_NAME
-"-H", "--host"; "-p", "--port"; "-u", "--user"; "-P", "--password"; "-d", "--database"
-```
+  ```
+  python3 script.py -H HOST_NAME -p PORT_NUMBER -u USER_NAME -P PASSWORD -d DB_NAME
+  "-H", "--host"; "-p", "--port"; "-u", "--user"; "-P", "--password"; "-d", "--database"
+  ```
