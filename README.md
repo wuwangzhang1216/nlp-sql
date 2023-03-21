@@ -6,11 +6,11 @@ pip3 install requirements.txt
 1. Download the pre-trained model from
 https://github.com/naver/sqlova/releases/download/SQLova-parameters/model_bert_best.pt
 https://github.com/naver/sqlova/releases/download/SQLova-parameters/model_best.pt
-  Place `model_best.pt` and `model_bert_best.pt` under `./`
+> Place `model_best.pt` and `model_bert_best.pt` under `./`
 
 2. Download the support files (which include the bert_config_uncased__.json and vocab_uncased_.txt) from
 https://drive.google.com/file/d/1iJvsf38f16el58H4NPINQ7uzal5-V4v4/view
-  Place all the support files under `./param`
+> Place all the support files under `./param`
 
 3. Download corenlp from
 https://stanfordnlp.github.io/CoreNLP/history.html
@@ -19,7 +19,7 @@ https://stanfordnlp.github.io/CoreNLP/history.html
 `os.environ['CORENLP_HOME'] = "REPLACE_WITH_CORENLP_PATH"` in line 14.
 
 5. Set up your MySQL database with host, port, user, password and the database ready.
-  > Make sure each table in your db has at least one row of data.
+> Make sure each table in your db has at least one row of data.
 
 6. Running CoreNLP server, cd to your CoreNLP directory, in the example it might stanford-corenlp-4.5.2
   ```
