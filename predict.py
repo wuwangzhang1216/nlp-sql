@@ -33,7 +33,7 @@
 import argparse, os
 from sqlnet.dbengine import DBEngine
 from sqlova.utils.utils_wikisql import *
-from train import construct_hyper_param, get_models
+# from train import construct_hyper_param, get_models
 
 # This is a stripped down version of the test() method in train.py - identical, except:
 #   - does not attempt to measure accuracy and indeed does not expect the data to be labelled.
