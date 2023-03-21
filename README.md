@@ -1,8 +1,11 @@
 # nlp-sql
+0. Install the requirements
+```
+pip3 install requirements.txt
+```
 1. Download the pre-trained model from
 https://github.com/naver/sqlova/releases/download/SQLova-parameters/model_bert_best.pt
 https://github.com/naver/sqlova/releases/download/SQLova-parameters/model_best.pt
-
 Place `model_best.pt` and `model_bert_best.pt` under `./`
 
 2. Download the support files (which include the bert_config_uncased__.json and vocab_uncased_.txt) from
