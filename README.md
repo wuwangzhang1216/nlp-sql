@@ -3,9 +3,6 @@
 ```
 pip3 install requirements.txt
 ```
-```
-conda install pytorch torchvision -c pytorch
-```
 1. Download the pre-trained model from
 https://github.com/naver/sqlova/releases/download/SQLova-parameters/model_bert_best.pt
 https://github.com/naver/sqlova/releases/download/SQLova-parameters/model_best.pt
