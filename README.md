@@ -16,7 +16,7 @@ https://drive.google.com/file/d/1iJvsf38f16el58H4NPINQ7uzal5-V4v4/view
 https://stanfordnlp.github.io/CoreNLP/history.html
 
 4. Change the 'CORENLP_HOME' path in annotate_ws.py, 
-`os.environ['CORENLP_HOME'] = "REPLACE_WITH_CORENLP_PATH"` in line 14.
+> `os.environ['CORENLP_HOME'] = "REPLACE_WITH_CORENLP_PATH"` in line 14.
 
 5. Set up your MySQL database with host, port, user, password and the database ready.
 > Make sure each table in your db has at least one row of data.
