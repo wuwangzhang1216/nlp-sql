@@ -12,7 +12,7 @@ https://github.com/naver/sqlova/releases/download/SQLova-parameters/model_best.p
 https://drive.google.com/file/d/1iJvsf38f16el58H4NPINQ7uzal5-V4v4/view
 > Place all the support files under `./param`
 
-3. Download corenlp from
+3. Download `stanford-corenlp-4.5.2` from
 https://stanfordnlp.github.io/CoreNLP/history.html
 
 4. Change the 'CORENLP_HOME' path in annotate_ws.py, 
